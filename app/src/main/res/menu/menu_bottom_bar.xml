@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android = "http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="الرئيسية"
+        android:icon="@drawable/ic_home"/>
+
+
+    <item
+        android:id="@+id/star"
+        android:title="الطلبات"
+        android:icon="@drawable/menu"/>
+
+
+    <item
+        android:id="@+id/done"
+        android:title="تم التوصيل"
+        android:icon="@drawable/food_delivery"/>
+
+
+
+
+
+
+
+
+</menu>

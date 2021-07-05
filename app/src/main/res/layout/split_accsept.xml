@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+
+
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:orientation = "vertical">
+
+<LinearLayout
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:layout_margin="5dp"
+
+    android:orientation = "vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:layout_margin = "7dp"
+                android:elevation = "15dp"
+               >
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "vertical">
+            <TextView
+                android:id = "@+id/name_accept"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity = "center"
+                android:textColor = "#000"
+                android:textSize = "15sp" />
+        <View
+            android:id = "@+id/view"
+            android:layout_width = "match_parent"
+            android:layout_height = "2dp"
+            android:background = "#EF9A9A" />
+        <Button
+            android:id = "@+id/but_locuser"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:background = "?android:attr/actionBarItemBackground"
+            android:clickable = "true"
+            android:drawableStart = "@drawable/ic_location"
+            android:focusable = "true"
+
+            android:foreground = "?android:attr/selectableItemBackground"
+            android:text = "الموقع"
+            android:textColor = "#000"
+            android:textSize = "15sp" />
+        <View
+            android:id = "@+id/view2"
+            android:layout_width = "match_parent"
+            android:layout_height = "2dp"
+            android:background = "#EF9A9A" />
+        <Button
+            android:id = "@+id/but_requser"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:drawableStart = "@drawable/menu"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="?android:attr/actionBarItemBackground"
+            android:text = "الطلبية"
+            android:textColor = "#000"
+            android:textSize = "15sp" />
+        <View
+            android:id = "@+id/view4"
+            android:layout_width = "match_parent"
+            android:layout_height = "2dp"
+            android:background = "#EF9A9A" />
+        <Button
+            android:id = "@+id/but_done_tran"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="?android:attr/actionBarItemBackground"
+            android:drawableStart = "@drawable/food_delivery"
+            android:text = "تم التوصيل"
+            android:textColor = "#000"
+            android:textSize = "15sp" />
+    </LinearLayout></androidx.cardview.widget.CardView></LinearLayout>
+    <View
+        android:id = "@+id/view3"
+        android:layout_width = "match_parent"
+        android:layout_height = "35dp"
+        android:background = "#D32F2F" />
+    </LinearLayout>
